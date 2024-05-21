@@ -15,10 +15,11 @@
  *
  * @param int $a El primer número a sumar.
  * @param int $b El segundo número a sumar.
+ * @param int $c Otro número más.
  * @return int La suma de $a y $b.
  */
-function sumar($a, $b) {
-    return $a + $b;
+function sumar($a, $b, $c) {
+    return $a + $b +$c;
 }
 
 /**
